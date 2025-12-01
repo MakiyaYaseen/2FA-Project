@@ -1,0 +1,29 @@
+/* src/pages/VerifyOTP.css */
+
+.otp-info {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.otp-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.otp-input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 5px rgba(79, 70, 229, 0.3);
+}
+
+.error-text {
+  color: #f87171;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
